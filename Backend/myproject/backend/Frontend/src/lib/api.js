@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { CROPS } from "./agrolens-data";
 
-const BACKEND_BASE = process.env.VITE_BACKEND_URL || "http://127.0.0.1:8000";
+const BACKEND_BASE = import.meta.env.VITE_BACKEND_URL || "http://127.0.0.1:8000";
 
 function normalizeCropDetailId(id) {
   if (id == null) {
