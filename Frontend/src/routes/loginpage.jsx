@@ -92,7 +92,6 @@ function LoginPage() {
             />
             <button
               type="button"
-              className="cursor-pointer"
               onClick={() => setShowPassword((prev) => !prev)}
               className="absolute right-2 top-1/2 -translate-y-1/2 text-xs text-muted-foreground hover:text-ag-cyan"
             >
